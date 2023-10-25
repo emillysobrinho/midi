@@ -20,7 +20,8 @@ function tocaSomPuff(){
 }
 document.querySelector('.tecla_puff').onclick = tocaSomPuff;
 
-function tocaSomSplash(){
-    document.querySelector('#som_tecla_splash').play();
+function tocaSomToim(){
+    document.querySelector('#som_tecla_toim').play();
 }
-document.querySelector('.tecla_slapsh').onclick = tocaSomSplash;
+document.querySelector('.tecla_toim').onclick = tocaSomToim;
+
