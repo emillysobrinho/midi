@@ -44,3 +44,9 @@ function tocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
 }
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
+
+function tocaSomBem-te-vi(){
+    document.querySelector('#som_tecla_bem-te-vi').play();
+}
+document.querySelector('.tecla_bem-te-vi').onclick = tocaSombem-te-vi;
+
