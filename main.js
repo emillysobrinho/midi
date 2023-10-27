@@ -52,7 +52,12 @@ document.querySelector('.tecla_bem-te-vi').onclick = tocaSomBemtevi;
 
 
 function tocaSomPisco(){
-    document.querySelector('#som_tecla_Pisco').play();
+    document.querySelector('#som_tecla_pisco').play();
 }
-document.querySelector('.tecla_bem-te-vi').onclick = tocaSomPisco;
+document.querySelector('.tecla_pisco').onclick = tocaSomPisco;
+
+function tocaSomCanário(){
+    document.querySelector('#som_tecla_canário').play();
+}
+document.querySelector('.tecla_canário').onclick = tocaSomCanário;
 
