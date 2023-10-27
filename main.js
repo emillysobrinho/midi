@@ -45,8 +45,14 @@ function tocaSomTom(){
 }
 document.querySelector('.tecla_tom').onclick = tocaSomTom;
 
-function tocaSomBem-te-vi(){
+function tocaSomBemtevi(){
     document.querySelector('#som_tecla_bem-te-vi').play();
 }
-document.querySelector('.tecla_bem-te-vi').onclick = tocaSombem-te-vi;
+document.querySelector('.tecla_bem-te-vi').onclick = tocaSomBemtevi;
+
+
+function tocaSomPisco(){
+    document.querySelector('#som_tecla_Pisco').play();
+}
+document.querySelector('.tecla_bem-te-vi').onclick = tocaSomPisco;
 
