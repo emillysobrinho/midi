@@ -61,3 +61,34 @@ function tocaSomCanário(){
 }
 document.querySelector('.tecla_canário').onclick = tocaSomCanário;
 
+function tocaSomPapagaio(){
+    document.querySelector('#som_tecla_papagaio').play();
+}
+document.querySelector('.tecla_Papagaio').onclick = tocaSomPapagaio;
+
+function tocaSomSabiá(){
+    document.querySelector('#som_tecla_sabiá').play();
+}
+document.querySelector('.tecla_Sabiá').onclick = tocaSomSabiá;
+
+function tocaSomAndorinha(){
+    document.querySelector('#som_tecla_andorinha').play();
+}
+document.querySelector('.tecla_Andorinha').onclick = tocaSomAndorinha;
+
+function tocaSomTucano(){
+    document.querySelector('#som_tecla_tucano').play();
+}
+document.querySelector('.tecla_Tucano').onclick = tocaSomTucano;
+
+function tocaSomRouxinol(){
+    document.querySelector('#som_tecla_rouxinol').play();
+}
+document.querySelector('.tecla_Rouxinol').onclick = tocaSomRouxinol;
+
+function tocaSomVerdelhão(){
+    document.querySelector('#som_tecla_verdelhão').play();
+}
+document.querySelector('.tecla_Verdelhão').onclick = tocaSomVerdelhão;
+
+
